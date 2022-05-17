@@ -1,0 +1,8 @@
+name: Lesson fo CI
+on: [push, pull_request]
+jobs:
+  test_job:
+    runs-on: linux
+    stages:
+      - name: test_job
+        run: ls
