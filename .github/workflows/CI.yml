@@ -3,6 +3,6 @@ on: [push, pull_request]
 jobs:
   test_job:
     runs-on: linux
-    stages:
+    steps:
       - name: test_job
         run: ls
